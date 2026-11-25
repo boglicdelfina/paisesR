@@ -1,16 +1,13 @@
 Package: paisesR
-Type: Package
-Title: What the Package Does (Title Case)
-Version: 0.1.0
-Authors@R: c(
-    person(
-      "Jane", "Doe",
-      email = "jane@example.com",
-      role = c("aut", "cre")
-    )
-  )
-Description: More about what it does (maybe more than one line).
-    Continuation lines should be indented.
-License: What license is it under?
+Title: Explora Indicadores de Desarrollo de Paises de Sudamerica
+Version: 0.0.0.9000
+Authors@R: 
+    person("Delfina", "Boglic", email = "delfiboglic@gmail.com", 
+           role = c("aut", "cre"))
+Description: Provee funciones para calcular resumenes, rankings y graficos
+    de esperanza de vida y PBI per capita de los paises de Sudamerica, a
+    partir de los datos del paquete datos.
+License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
