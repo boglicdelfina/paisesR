@@ -38,5 +38,5 @@ ranking_paises <- function(datos, variable = "esperanza", n = 5) {
 
   resultado |>
     dplyr::arrange(dplyr::desc(promedio)) |>
-    head(n)
+    dplyr::slice_head(n = n)
 }
