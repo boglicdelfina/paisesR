@@ -1,0 +1,47 @@
+---
+title: "Introducción a paisesR"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Introducción a paisesR}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(paisesR)
+```
+
+# Introducción
+
+paisesR ayuda a explorar la esperanza de vida y el PBI per cápita de los países de Sudamérica.
+
+# El conjunto de datos
+
+```{r datos}
+head(paises_sudamerica)
+```
+
+# Resumen de un país
+
+```{r resumen}
+resumen_pais(paises_sudamerica, "Argentina")
+```
+
+# Gráfico de esperanza de vida
+
+```{r grafico}
+grafico_esperanza(paises_sudamerica, c("Argentina", "Chile", "Uruguay"))
+```
+
+# Ranking de países
+
+```{r ranking}
+ranking_paises(paises_sudamerica, variable = "esperanza", n = 5)
+```
