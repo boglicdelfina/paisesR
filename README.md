@@ -1,5 +1,5 @@
 
-# paisesR
+# paisesR <a href="https://boglicdelfina.github.io/paisesR/"><img src="man/figures/logo.png" align="right" height="139" alt="paisesR website" /></a>
 
 <!-- badges: start -->
 
