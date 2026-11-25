@@ -1,0 +1,52 @@
+# paisesR
+
+## Instalación
+
+Podés instalar la versión en desarrollo desde GitHub con:
+
+``` r
+
+pak::pak("boglicdelfina/paisesR")
+```
+
+## Ejemplo
+
+El paquete incluye el conjunto de datos `paises_sudamerica`. Así se
+calcula el ranking de países según su PBI per cápita promedio:
+
+``` r
+
+library(paisesR)
+
+ranking_paises(paises_sudamerica, variable = "pib", n = 3)
+#> # A tibble: 3 × 2
+#>   pais      promedio
+#>   <fct>        <dbl>
+#> 1 Venezuela   10089.
+#> 2 Argentina    8956.
+#> 3 Uruguay      7100.
+```
+
+## Autora
+
+Delfina Boglic
+
+# Package index
+
+## All functions
+
+- [`grafico_esperanza()`](https://boglicdelfina.github.io/paisesR/reference/grafico_esperanza.md)
+  : Gráfico de esperanza de vida
+- [`paises_sudamerica`](https://boglicdelfina.github.io/paisesR/reference/paises_sudamerica.md)
+  : Indicadores de paises de Sudamérica
+- [`ranking_paises()`](https://boglicdelfina.github.io/paisesR/reference/ranking_paises.md)
+  : Ranking de países
+- [`resumen_pais()`](https://boglicdelfina.github.io/paisesR/reference/resumen_pais.md)
+  : Resumen de indicadores de un país
+
+# Articles
+
+### All vignettes
+
+- [Introducción a
+  paisesR](https://boglicdelfina.github.io/paisesR/articles/introduccion.md):
