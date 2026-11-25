@@ -16,4 +16,5 @@ LazyData: true
 Config/roxygen2/version: 8.1.1
 Imports: 
     cli,
-    dplyr
+    dplyr,
+    ggplot2
